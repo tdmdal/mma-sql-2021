@@ -1,0 +1,47 @@
+<style>
+ol ul {
+    margin-bottom: 10px;
+}
+</style>
+
+---
+title: "SQL Workshop"
+---
+
+### Prerequisite
+
+1. Please complete the following LinkedIn Learning online course before the SQL workshop. (Note that you will need to install [DB Browser for SQLite](https://sqlitebrowser.org/){target="_blank"} for this online course.)
+
+    * [Learning SQL Programming by Scott Simpson](https://www.linkedin.com/learning/learning-sql-programming){target="_blank"} (1h 27m).
+    
+    LinkedIn Learning is not free anymore for UofT students. However, one of the following options can get you free access to this course.
+    
+    * Register a free [1-month trial account](https://www.linkedin.com/learning/subscription/products){target="_blank"} and take the course. 
+    * Apply for a free Toronto Public Library card, and login LinkedIn Learning via [the library site](https://www.torontopubliclibrary.ca/detail.jsp?R=EDB0187){target="_blank"}. (Note that you can get Toronto Public Library's [Digital Access Card](https://www.torontopubliclibrary.ca/using-the-library/your-library-card/){target="_blank"} without visiting a library branch.)
+    * If you are a UofT graduate, you could register [here](https://my.alumni.utoronto.ca/linkedinlearning){target="_blank"} at UofT alumni site to get free access to LinkedIn Learning from 8/20/2021 to 12/15/2021.
+
+2. During the workshop, we will practise SQL together using [Google Colab](https://colab.research.google.com/){target="_blank"}, so please make sure you have a Google account.
+
+### Slides
+
+* Intro to SQL ([sql_bootcamp.pdf](sql_bootcamp.pdf))
+
+    Please print out page 7 of the slides (the "Northwind DB" page) so you can refer to it easily when we start hands-on exercises.
+
+### Notebook
+
+* SQL Intro Notebook [![](colab-badge.svg)](https://colab.research.google.com/github/tdmdal/mma-sql-2021/blob/master/docs/SQL_Intro_Sqlite.ipynb)
+
+### Backup Setup
+
+If you don't have access to Google service, below is a backup setup for the workshop.
+
+1. Install [DB Browser for SQLite](https://sqlitebrowser.org/){target="_blank"}. You should already have it installed if you took the online course by Scott Simpson (see Prerequisite above).
+
+2. Download the dataset ([northwind.sqlite3](data/northwind.sqlite3)).
+
+3. Load the dataset in DB Browser for SQLite, and follow along using the [html version](SQL_Intro_Sqlite.html) of the notebook.
+
+---
+
+Back to [TDMDAL Computing Page](https://tdmdal.github.io/)
