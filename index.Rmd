@@ -26,7 +26,7 @@ title: "SQL Workshop"
 
 * Intro to SQL ([sql_bootcamp.pdf](sql_bootcamp.pdf))
 
-    Please print out page 7 of the slides (the "Northwind DB" page) so you can refer to it easily when we start hands-on exercises.
+    Please print out page 8 of the slides (the "Northwind DB" page) so you can refer to it easily when we start hands-on exercises.
 
 ### Notebook
 
@@ -41,6 +41,20 @@ If you don't have access to Google service, below is a backup setup for the work
 2. Download the dataset ([northwind.sqlite3](data/northwind.sqlite3)).
 
 3. Load the dataset in DB Browser for SQLite, and follow along using the [html version](SQL_Intro_Sqlite.html) of the notebook.
+
+---
+
+### SQL Setup for RSM8411 (MMA, Fall 2021)
+
+You will learn more SQL in RSM8411 this fall. Instead of SQLite as we use in this workshop, RSM8411 will use PostgreSQL, a powerful open-source DBMS. Please make sure you have it installed and tested before the end of this workshop. If you encounter any problem setting it up, please let me know.
+
+* Download and install [PostgreSQL](https://www.postgresql.org/download/){target="_blank"}. You can follow the installation guide from this PostgreSQL Tutorial site: [Windows installation](https://www.postgresqltutorial.com/install-postgresql/){target="_blank"} and [MacOS installation](https://www.postgresqltutorial.com/install-postgresql-macos/){target="_blank"}. Note that
+
+    * PostgreSQL management client [pgAdmin](https://www.pgadmin.org/){target="_blank"} is included in the installation.
+    * You do not need to install the component "Stack Builder".
+    * After the installation, you should verify that everything is installed correctly. Follow the "Verify the Installation" step in the [Windows installation guide](https://www.postgresqltutorial.com/install-postgresql/){target="_blank"} or the "Load the sample database" step in the [MacOS installation guide](https://www.postgresqltutorial.com/install-postgresql-macos/){target="_blank"}.
+
+* Getting-stated resources: [PostgreSQL Essential Training](https://www.linkedin.com/learning/postgresql-essential-training){target="_blank"}. (To access this LinkedIn course for free, refer to information in the Prerequisite section.)
 
 ---
 
