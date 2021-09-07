@@ -24,13 +24,15 @@ title: "SQL Workshop"
 
 ### Slides
 
-* Intro to SQL ([sql_bootcamp.pdf](sql_bootcamp.pdf))
+* Intro to SQL ([sql_bootcamp.pdf](sql_bootcamp.pdf); updated on Sept. 7)
 
     Please print out page 8 of the slides (the "Northwind DB" page) so you can refer to it easily when we start hands-on exercises.
 
 ### Notebook
 
 * SQL Intro Notebook [![](colab-badge.svg)](https://colab.research.google.com/github/tdmdal/mma-sql-2021/blob/master/docs/SQL_Intro_Sqlite.ipynb)
+
+* The full Notebook (all questions solved) in HTML format has been posted on Quercus. It’s not in notebook format so you cannot simply load it to Google Colab and hit run all. Use it as a reference and build your SQL Bootcamp Notebook on your own.
 
 ### Backup Setup
 
